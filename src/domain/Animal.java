@@ -5,8 +5,6 @@ public class Animal {
     protected String name;
     
     protected Integer weight;
-    
-  
 
     public Animal() {
         name = "generic animal";
