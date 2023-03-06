@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classdomain_1_1_animal" xml:lang="en-US">
+<title>domain.Animal Class Reference</title>
+<indexterm><primary>domain.Animal</primary></indexterm>
+<para>Inheritance diagram for domain.Animal:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classdomain_1_1_animal.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classdomain_1_1_animal_1acfbf1405e335fb7887eba1f22cf484c2">Animal</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_animal_1aeb4cdcb2e2faa803e125dea86486e474">eat</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_animal_1a0070dca2022620de6da5c005e04609a6">speak</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_animal_1ad168ff1deb4cf3e0628fa8ed6bdacc30">sleep</link> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_classdomain_1_1_animal_1a1b29e1c4522c9593ac169ea0b113fa07">toString</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Attributes    </title>
+        <itemizedlist>
+            <listitem><para>String <link linkend="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871">name</link></para>
+</listitem>
+            <listitem><para>Integer <link linkend="_classdomain_1_1_animal_1a7b4016067574c4d4dfbf860e631832f7">weight</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>The class Animal </para>
+<para>
+Definition at line <link linkend="__animal_8java_source_1l00007">7</link> of file <link linkend="__animal_8java_source">Animal.java</link>.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classdomain_1_1_animal_1acfbf1405e335fb7887eba1f22cf484c2"/><section>
+    <title>Animal()</title>
+<indexterm><primary>Animal</primary><secondary>domain.Animal</secondary></indexterm>
+<indexterm><primary>domain.Animal</primary><secondary>Animal</secondary></indexterm>
+<para><computeroutput>domain.Animal.Animal ( )</computeroutput></para>
+<para>It is a constructor. </para>
+<para>
+Definition at line <link linkend="__animal_8java_source_1l00019">19</link> of file <link linkend="__animal_8java_source">Animal.java</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classdomain_1_1_animal_1aeb4cdcb2e2faa803e125dea86486e474"/><section>
+    <title>eat()</title>
+<indexterm><primary>eat</primary><secondary>domain.Animal</secondary></indexterm>
+<indexterm><primary>domain.Animal</primary><secondary>eat</secondary></indexterm>
+<para><computeroutput>void domain.Animal.eat ( )</computeroutput></para>
+<para>Eat </para>
+<para>
+Reimplemented in <link linkend="_classdomain_1_1_panda_1a07295b7fdf398136aed78aba8c3834b3">domain.Panda</link>.</para>
+<para>
+Definition at line <link linkend="__animal_8java_source_1l00031">31</link> of file <link linkend="__animal_8java_source">Animal.java</link>.</para>
+</section>
+<anchor xml:id="_classdomain_1_1_animal_1ad168ff1deb4cf3e0628fa8ed6bdacc30"/><section>
+    <title>sleep()</title>
+<indexterm><primary>sleep</primary><secondary>domain.Animal</secondary></indexterm>
+<indexterm><primary>domain.Animal</primary><secondary>sleep</secondary></indexterm>
+<para><computeroutput>void domain.Animal.sleep ( )</computeroutput></para>
+<para>Sleep </para>
+<para>
+Reimplemented in <link linkend="_classdomain_1_1_panda_1a8b57f1871a0390759a0b9560c799858b">domain.Panda</link>.</para>
+<para>
+Definition at line <link linkend="__animal_8java_source_1l00053">53</link> of file <link linkend="__animal_8java_source">Animal.java</link>.</para>
+</section>
+<anchor xml:id="_classdomain_1_1_animal_1a0070dca2022620de6da5c005e04609a6"/><section>
+    <title>speak()</title>
+<indexterm><primary>speak</primary><secondary>domain.Animal</secondary></indexterm>
+<indexterm><primary>domain.Animal</primary><secondary>speak</secondary></indexterm>
+<para><computeroutput>void domain.Animal.speak ( )</computeroutput></para>
+<para>Speak </para>
+<para>
+Reimplemented in <link linkend="_classdomain_1_1_panda_1ad34c3a430c769a047700cf20da995295">domain.Panda</link>.</para>
+<para>
+Definition at line <link linkend="__animal_8java_source_1l00042">42</link> of file <link linkend="__animal_8java_source">Animal.java</link>.</para>
+</section>
+<anchor xml:id="_classdomain_1_1_animal_1a1b29e1c4522c9593ac169ea0b113fa07"/><section>
+    <title>toString()</title>
+<indexterm><primary>toString</primary><secondary>domain.Animal</secondary></indexterm>
+<indexterm><primary>domain.Animal</primary><secondary>toString</secondary></indexterm>
+<para><computeroutput>String domain.Animal.toString ( )</computeroutput></para>
+<para>To string</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>String </para>
+</formalpara>
+</para>
+<para>
+Reimplemented in <link linkend="_classdomain_1_1_panda_1aded9b07bd194680e948800c2dbe41ec3">domain.Panda</link>.</para>
+<para>
+Definition at line <link linkend="__animal_8java_source_1l00067">67</link> of file <link linkend="__animal_8java_source">Animal.java</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871"/><section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>domain.Animal</secondary></indexterm>
+<indexterm><primary>domain.Animal</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>String domain.Animal.name<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__animal_8java_source_1l00009">9</link> of file <link linkend="__animal_8java_source">Animal.java</link>.</para>
+</section>
+<anchor xml:id="_classdomain_1_1_animal_1a7b4016067574c4d4dfbf860e631832f7"/><section>
+    <title>weight</title>
+<indexterm><primary>weight</primary><secondary>domain.Animal</secondary></indexterm>
+<indexterm><primary>domain.Animal</primary><secondary>weight</secondary></indexterm>
+<para><computeroutput>Integer domain.Animal.weight<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__animal_8java_source_1l00011">11</link> of file <link linkend="__animal_8java_source">Animal.java</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/Admin/Documents/NetBeansProjects/java-inheritance-vellerii/src/domain/<link linkend="__animal_8java">Animal.java</link></section>
+</section>

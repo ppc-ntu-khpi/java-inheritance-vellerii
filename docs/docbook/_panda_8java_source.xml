@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__panda_8java_source" xml:lang="en-US">
+<title>Panda.java</title>
+<indexterm><primary>C:/Users/Admin/Documents/NetBeansProjects/java-inheritance-vellerii/src/domain/Panda.java</primary></indexterm>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered"><anchor xml:id="__panda_8java_source_1l00001"/>00001 <emphasis role="keyword">package&#32;</emphasis>domain;
+<anchor xml:id="__panda_8java_source_1l00002"/>00002 
+<anchor xml:id="__panda_8java_source_1l00003"/>00003 
+<anchor xml:id="__panda_8java_source_1l00007"/><link linkend="_classdomain_1_1_panda">00007</link> <emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">class&#32;</emphasis><link linkend="_classdomain_1_1_panda">Panda</link>&#32;<emphasis role="keyword">extends</emphasis>&#32;<link linkend="_classdomain_1_1_predator">Predator</link>&#32;{
+<anchor xml:id="__panda_8java_source_1l00008"/>00008 &#32;&#32;&#32;&#32;
+<anchor xml:id="__panda_8java_source_1l00009"/>00009 &#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;String&#32;specie;
+<anchor xml:id="__panda_8java_source_1l00010"/>00010 &#32;&#32;&#32;&#32;
+<anchor xml:id="__panda_8java_source_1l00011"/>00011 
+<anchor xml:id="__panda_8java_source_1l00020"/><link linkend="_classdomain_1_1_panda_1acd995fee0bbdb27daca25f2368c251ca">00020</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<link linkend="_classdomain_1_1_panda_1acd995fee0bbdb27daca25f2368c251ca">Panda</link>(String&#32;<link linkend="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871">name</link>,&#32;<emphasis role="keywordtype">int</emphasis>&#32;<link linkend="_classdomain_1_1_animal_1a7b4016067574c4d4dfbf860e631832f7">weight</link>,&#32;String&#32;specie)&#32;{&#32;
+<anchor xml:id="__panda_8java_source_1l00021"/>00021 
+<anchor xml:id="__panda_8java_source_1l00022"/>00022 &#32;&#32;&#32;&#32;&#32;&#32;&#32;this.name&#32;=&#32;<link linkend="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871">name</link>;
+<anchor xml:id="__panda_8java_source_1l00023"/>00023 &#32;&#32;&#32;&#32;&#32;&#32;&#32;this.weight&#32;=&#32;<link linkend="_classdomain_1_1_animal_1a7b4016067574c4d4dfbf860e631832f7">weight</link>;
+<anchor xml:id="__panda_8java_source_1l00024"/>00024 &#32;&#32;&#32;&#32;&#32;&#32;&#32;this.specie&#32;=&#32;specie;
+<anchor xml:id="__panda_8java_source_1l00025"/>00025 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__panda_8java_source_1l00026"/>00026 
+<anchor xml:id="__panda_8java_source_1l00027"/>00027 
+<anchor xml:id="__panda_8java_source_1l00033"/><link linkend="_classdomain_1_1_panda_1aa6e5280c1b8f8e12a8396f9f8853c30f">00033</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<link linkend="_classdomain_1_1_panda_1aa6e5280c1b8f8e12a8396f9f8853c30f">Panda</link>()&#32;{&#32;
+<anchor xml:id="__panda_8java_source_1l00034"/>00034 
+<anchor xml:id="__panda_8java_source_1l00035"/>00035 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">this</emphasis>(<emphasis role="stringliteral">&quot;Pou&quot;</emphasis>,&#32;8,&#32;&#32;<emphasis role="stringliteral">&quot;Big&#32;panda&quot;</emphasis>);
+<anchor xml:id="__panda_8java_source_1l00036"/>00036 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__panda_8java_source_1l00037"/>00037 &#32;&#32;&#32;&#32;
+<anchor xml:id="__panda_8java_source_1l00038"/>00038 
+<anchor xml:id="__panda_8java_source_1l00045"/><link linkend="_classdomain_1_1_panda_1aa3d3853467c72607ed8de53589faae0e">00045</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<link linkend="_classdomain_1_1_panda_1aa3d3853467c72607ed8de53589faae0e">Panda</link>(String&#32;<link linkend="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871">name</link>)&#32;{&#32;
+<anchor xml:id="__panda_8java_source_1l00046"/>00046 
+<anchor xml:id="__panda_8java_source_1l00047"/>00047 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">this</emphasis>(<link linkend="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871">name</link>,&#32;120,&#32;&#32;<emphasis role="stringliteral">&quot;Big&#32;panda&quot;</emphasis>);
+<anchor xml:id="__panda_8java_source_1l00048"/>00048 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__panda_8java_source_1l00049"/>00049 &#32;&#32;&#32;&#32;
+<anchor xml:id="__panda_8java_source_1l00050"/>00050 
+<anchor xml:id="__panda_8java_source_1l00056"/><link linkend="_classdomain_1_1_panda_1a5c551acf1981856069191ba1d0ed58a2">00056</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classdomain_1_1_panda_1a5c551acf1981856069191ba1d0ed58a2">climb</link>()&#32;{&#32;
+<anchor xml:id="__panda_8java_source_1l00057"/>00057 
+<anchor xml:id="__panda_8java_source_1l00058"/>00058 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;System.out.println(<emphasis role="stringliteral">&quot;Panda&#32;is&#32;climbing...&quot;</emphasis>);
+<anchor xml:id="__panda_8java_source_1l00059"/>00059 &#32;&#32;&#32;&#32;}&#32;
+<anchor xml:id="__panda_8java_source_1l00060"/>00060 &#32;&#32;&#32;&#32;
+<anchor xml:id="__panda_8java_source_1l00061"/>00061 &#32;&#32;&#32;&#32;@Override
+<anchor xml:id="__panda_8java_source_1l00062"/>00062 
+<anchor xml:id="__panda_8java_source_1l00068"/><link linkend="_classdomain_1_1_panda_1a07295b7fdf398136aed78aba8c3834b3">00068</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classdomain_1_1_panda_1a07295b7fdf398136aed78aba8c3834b3">eat</link>()&#32;{&#32;
+<anchor xml:id="__panda_8java_source_1l00069"/>00069 
+<anchor xml:id="__panda_8java_source_1l00070"/>00070 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;System.out.println(<emphasis role="stringliteral">&quot;Panda&#32;eats&#32;bamboo.&quot;</emphasis>);
+<anchor xml:id="__panda_8java_source_1l00071"/>00071 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__panda_8java_source_1l00072"/>00072 &#32;&#32;&#32;&#32;
+<anchor xml:id="__panda_8java_source_1l00073"/>00073 &#32;&#32;&#32;&#32;@Override
+<anchor xml:id="__panda_8java_source_1l00074"/>00074 
+<anchor xml:id="__panda_8java_source_1l00080"/><link linkend="_classdomain_1_1_panda_1ad34c3a430c769a047700cf20da995295">00080</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classdomain_1_1_panda_1ad34c3a430c769a047700cf20da995295">speak</link>()&#32;{&#32;
+<anchor xml:id="__panda_8java_source_1l00081"/>00081 
+<anchor xml:id="__panda_8java_source_1l00082"/>00082 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;System.out.println(<emphasis role="stringliteral">&quot;Panda&#32;can&#32;squeak,&#32;growl,&#32;bark&#32;and&#32;snort.&quot;</emphasis>);
+<anchor xml:id="__panda_8java_source_1l00083"/>00083 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__panda_8java_source_1l00084"/>00084 &#32;&#32;&#32;&#32;
+<anchor xml:id="__panda_8java_source_1l00085"/>00085 &#32;&#32;&#32;&#32;@Override
+<anchor xml:id="__panda_8java_source_1l00086"/>00086 
+<anchor xml:id="__panda_8java_source_1l00092"/><link linkend="_classdomain_1_1_panda_1a8b57f1871a0390759a0b9560c799858b">00092</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classdomain_1_1_panda_1a8b57f1871a0390759a0b9560c799858b">sleep</link>()&#32;{&#32;
+<anchor xml:id="__panda_8java_source_1l00093"/>00093 
+<anchor xml:id="__panda_8java_source_1l00094"/>00094 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;System.out.println(<emphasis role="stringliteral">&quot;Panda&#32;sleeps&#32;12&#32;hours&#32;a&#32;day.&quot;</emphasis>);
+<anchor xml:id="__panda_8java_source_1l00095"/>00095 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__panda_8java_source_1l00096"/>00096 &#32;&#32;&#32;&#32;
+<anchor xml:id="__panda_8java_source_1l00097"/>00097 &#32;&#32;&#32;&#32;@Override
+<anchor xml:id="__panda_8java_source_1l00098"/>00098 
+<anchor xml:id="__panda_8java_source_1l00104"/><link linkend="_classdomain_1_1_panda_1a8230d7e020aba1e42b39cbde1a991933">00104</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classdomain_1_1_panda_1a8230d7e020aba1e42b39cbde1a991933">hunt</link>()&#32;{&#32;
+<anchor xml:id="__panda_8java_source_1l00105"/>00105 
+<anchor xml:id="__panda_8java_source_1l00106"/>00106 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;System.out.println(<emphasis role="stringliteral">&quot;Panda&#32;\&quot;hunts\&quot;&#32;for&#32;young&#32;shoots&#32;of&#32;bamboo.&quot;</emphasis>);
+<anchor xml:id="__panda_8java_source_1l00107"/>00107 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__panda_8java_source_1l00108"/>00108 &#32;&#32;&#32;&#32;
+<anchor xml:id="__panda_8java_source_1l00109"/>00109 &#32;&#32;&#32;&#32;@Override
+<anchor xml:id="__panda_8java_source_1l00110"/>00110 
+<anchor xml:id="__panda_8java_source_1l00117"/><link linkend="_classdomain_1_1_panda_1aded9b07bd194680e948800c2dbe41ec3">00117</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;String&#32;<link linkend="_classdomain_1_1_panda_1aded9b07bd194680e948800c2dbe41ec3">toString</link>()&#32;{&#32;
+<anchor xml:id="__panda_8java_source_1l00118"/>00118 
+<anchor xml:id="__panda_8java_source_1l00119"/>00119 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;super.toString()&#32;+&#32;<emphasis role="stringliteral">&quot;\nSpecie:\t&quot;</emphasis>&#32;+&#32;this.specie&#32;+&#32;<emphasis role="stringliteral">&quot;\n\nThis&#32;is&#32;a&#32;panda!&quot;</emphasis>;
+<anchor xml:id="__panda_8java_source_1l00120"/>00120 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__panda_8java_source_1l00121"/>00121 &#32;&#32;&#32;&#32;
+<anchor xml:id="__panda_8java_source_1l00122"/>00122 }
+</programlisting></section>
