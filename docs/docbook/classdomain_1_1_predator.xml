@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classdomain_1_1_predator" xml:lang="en-US">
+<title>domain.Predator Class Reference</title>
+<indexterm><primary>domain.Predator</primary></indexterm>
+<para>Inheritance diagram for domain.Predator:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classdomain_1_1_predator.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classdomain_1_1_predator_1ad00b41c1e8b3652e62fe8f365d3a737a">hunt</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+Public Member Functions inherited from <link linkend="_classdomain_1_1_animal">domain.Animal</link>        <itemizedlist>
+            <listitem><para><link linkend="_classdomain_1_1_animal_1acfbf1405e335fb7887eba1f22cf484c2">Animal</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_animal_1aeb4cdcb2e2faa803e125dea86486e474">eat</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_animal_1a0070dca2022620de6da5c005e04609a6">speak</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_animal_1ad168ff1deb4cf3e0628fa8ed6bdacc30">sleep</link> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_classdomain_1_1_animal_1a1b29e1c4522c9593ac169ea0b113fa07">toString</link> ()</para>
+</listitem>
+        </itemizedlist>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+Protected Attributes inherited from <link linkend="_classdomain_1_1_animal">domain.Animal</link>        <itemizedlist>
+            <listitem><para>String <link linkend="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871">name</link></para>
+</listitem>
+            <listitem><para>Integer <link linkend="_classdomain_1_1_animal_1a7b4016067574c4d4dfbf860e631832f7">weight</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>The class Predator extends animal </para>
+<para>
+Definition at line <link linkend="__predator_8java_source_1l00007">7</link> of file <link linkend="__predator_8java_source">Predator.java</link>.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classdomain_1_1_predator_1ad00b41c1e8b3652e62fe8f365d3a737a"/><section>
+    <title>hunt()</title>
+<indexterm><primary>hunt</primary><secondary>domain.Predator</secondary></indexterm>
+<indexterm><primary>domain.Predator</primary><secondary>hunt</secondary></indexterm>
+<para><computeroutput>void domain.Predator.hunt ( )</computeroutput></para>
+<para>Hunt </para>
+<para>
+Reimplemented in <link linkend="_classdomain_1_1_panda_1a8230d7e020aba1e42b39cbde1a991933">domain.Panda</link>.</para>
+<para>
+Definition at line <link linkend="__predator_8java_source_1l00015">15</link> of file <link linkend="__predator_8java_source">Predator.java</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/Admin/Documents/NetBeansProjects/java-inheritance-vellerii/src/domain/<link linkend="__predator_8java">Predator.java</link></section>
+</section>
